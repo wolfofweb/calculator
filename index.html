@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+    <div class="container">
+    <input placeholder="0" id="answer" type="text-area">
+    <div class="button-container">
+    <button onclick="allClear()" id="c">C</button>
+    <button onclick="display('%')" id="percent">%</button>
+    <button onclick="erase()" id="erase">&#9003;</button>
+    <button onclick="display('/')" id="by">&#247;</button>
+    <button onclick="display('7')" id="7">7</button>
+    <button onclick="display('8')" id="8">8</button>
+    <button onclick="display('9')" id="9">9</button>
+    <button onclick="display('*')" id="into">x</button>
+    <button onclick="display('4')" id="4">4</button>
+    <button onclick="display('5')" id="5">5</button>
+    <button onclick="display('6')" id="6">6</button>
+    <button onclick="display('-')" id="minus" >&#8722;</button>
+    <button onclick="display('1')" id="1">1</button>
+    <button onclick="display('2')" id="2">2</button>
+    <button onclick="display('3')" id="3">3</button>
+    <button onclick="display('+')" id="plus">+</button>
+    <button onclick="display('00')" id="00">00</button>
+    <button onclick="display('0')"  id="0">0</button>
+    <button onclick="display('.')"  id="dot">.</button>
+    <button onclick="result()" id="equal">=</button>
+    </div></div></div>
+    <script src="script.js"></script>
+</body>
+</html>
